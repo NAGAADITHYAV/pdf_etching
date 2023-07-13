@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   post 'pdfs/change', to: 'pdfs#change'
   post 'imp_pdfs/change', to: 'imp_pdfs#change'
+  post 'need_pdfs/change', to: 'need_pdfs#change'
 end
